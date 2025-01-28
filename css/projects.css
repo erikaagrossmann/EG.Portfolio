@@ -9,6 +9,36 @@
 
 }
 
+.work img:hover{
+    opacity:0.5;
+    cursor:pointer;
+}
+
+/* individual */
+
+.Name {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.des {
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+.mag {
+    padding: 2rem;
+    width: 75%;
+    align-self: center;
+  
+}
+
+.photo {
+    padding: 2rem;
+    width: 50%;
+    align-self: center;
+   
+}
+
 /* in between screens */
 @media screen and (min-width:1025px) and (max-width:1430px) {
     .work{
